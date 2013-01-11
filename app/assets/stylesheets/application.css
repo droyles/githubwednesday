@@ -17,6 +17,7 @@ html{
 	background-image: url(knitted-yarn-002004-charcoal.jpg);
 	background-repeat:no-repeat;
 	background-size: cover;
+	font-family: verdana;
 }
 
 body {
@@ -25,7 +26,6 @@ body {
 	background-color: #dddddd;
 	padding: 20px 40px;
 	border: 1px solid #ccc;
-	font-family: Noticia, serif;
 	color: #402132;
 }
 header {
@@ -35,7 +35,7 @@ header {
 }
 
 header h1 {
-	color: #ccc;
+	color: #eee;
 	font-style: none;
 	font-size: 300%;
 	text-align: center;
@@ -56,6 +56,11 @@ nav li {
 
 footer ul {
 	list-style: none;
+	display: inline;
+	padding-left: 0;
+}
+
+footer li {
 	display: inline;
 }
 
@@ -82,7 +87,7 @@ thead th {
 
 th,
 td {
-	padding: 5px 0;
+	padding: 5px 10px;
 }
 
 tbody tr {
